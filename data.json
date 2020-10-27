@@ -1,0 +1,49 @@
+{
+    "projects": [
+    {
+        "id": 0,
+        "project_name": "Random Quote Generator",
+        "description": "A generator for random quotes.",
+        "technologies": ["JavaScript"],
+        "live_link": "https://rlherron100.github.io/Random-Quote-Generator/",
+        "github_link": "https://github.com/rlherron100/Random-Quote-Generator",
+        "image_urls": ["images/rand_quote_landing.PNG", "images/thom_quote.png", "images/john_quote.png"]
+    }, 
+    {
+        "id": 1,
+        "project_name": "List Pagination",
+        "description": "A paginated list of fictional students.",
+        "technologies": ["JavaScript"],
+        "live_link": "https://rlherron100.github.io/List-Pagination-and-Filtering/",
+        "github_link": "https://github.com/rlherron100/List-Pagination-and-Filtering",
+        "image_urls": ["images/list_pagi_landing.png", "images/list_pagi_example.png"]
+    },
+    {
+        "id": 2,
+        "project_name": "Interactive Form",
+        "description": "An interactive form for a fictional Full Stack Javascript Conference",
+        "technologies": ["JavaScript", "Regular Expressions"],
+        "live_link": "https://rlherron100.github.io/Interactive-Form/",
+        "github_link": "https://github.com/rlherron100/Interactive-Form",
+        "image_urls": ["images/conf_form_landing.png", "images/conf_form_01.png", "images/conf_form_02.png", "images/conf_form_03.png"]
+    },
+    {
+        "id": 3,
+        "project_name": "Phrase Hunter Game",
+        "description": "A phrase guessing game for the browser.",
+        "technologies": ["JavaScript", "Object-Oriented Programming"],
+        "live_link": "https://rlherron100.github.io/oop_game-v2/",
+        "github_link": "https://github.com/rlherron100/oop_game-v2",
+        "image_urls": ["images/phrase_game_landing.png", "images/phrase_game_ex01.png", "images/phrase_game_ex02.png", "images/phrase_game_ex03.png"]
+    },
+    {
+        "id": 4,
+        "project_name": "Employee Directory",
+        "description": "A sample employee directory utilizing a public api to gather information.",
+        "technologies": ["JavaScript", "API Requests"],
+        "live_link": "https://rlherron100.github.io/Public-API-Requests/",
+        "github_link": "https://github.com/rlherron100/Public-API-Requests",
+        "image_urls": ["images/api_dir_landing.png", "images/api_dir_example.png"]
+    }
+]
+}

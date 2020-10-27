@@ -1,0 +1,33 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "Node and Express Portfolio",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node public/js/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rlherron100/Static-Portfolio.git"
+  },
+  "keywords": [
+    "Rob",
+    "Herron",
+    "portfolio",
+    "express",
+    "node"
+  ],
+  "author": "Rob L Herron",
+  "license": "(ISC)",
+  "bugs": {
+    "url": "https://github.com/rlherron100/Static-Portfolio/issues"
+  },
+  "homepage": "https://github.com/rlherron100/Static-Portfolio#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "pug": "^3.0.0"
+  },
+  "devDependencies": {}
+}
