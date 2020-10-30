@@ -1,19 +1,20 @@
 const express = require('express');
 const router = express.Router();
-const { projects } = require('../data/data.json');
+const { projects } = require('../data.json');
 
 router.get("/", (req, res)=> {
    res.render('index', { projects });
-    console.log("I hope this is working.")
+    console.log("Welcome to my home page.")
 });
 router.get("/about", (req, res) => {
-    console.log("I hope this is working.")
+    res.render('about')
+    console.log("Welcome to my about page.")
 });
-router.get('projects/:id', (req, res, next) => {
+router.get('/projects/:id', (req, res, next) => {
 const projectId = req.params.id;
-const projects = projects.find( ({id}) => id === +projectId);
-if (projects) {
-    res.render("projects", { projects });
+const getProjects = projects.find( ({id}) => id === +projectId);
+if (getProjects) {
+    res.render("project", { projects });
 } 
 });
 

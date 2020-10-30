@@ -7,7 +7,7 @@
         "technologies": ["JavaScript"],
         "live_link": "https://rlherron100.github.io/Random-Quote-Generator/",
         "github_link": "https://github.com/rlherron100/Random-Quote-Generator",
-        "image_urls": ["images/rand_quote_landing.PNG", "images/thom_quote.png", "images/john_quote.png"]
+        "image_urls": ["/static/images/rand_quote_landing.png", "images/thom_quote.png", "images/john_quote.png"]
     }, 
     {
         "id": 1,
