@@ -24,6 +24,9 @@
     "url": "https://github.com/rlherron100/Static-Portfolio/issues"
   },
   "homepage": "https://github.com/rlherron100/Static-Portfolio#readme",
+  "engines": {
+    "node":"12.18.4"
+  },
   "dependencies": {
     "express": "^4.17.1",
     "nodemon": "^2.0.6",

@@ -100,6 +100,7 @@ a:hover{
 .portfolio-intro{
   margin: 0;
   padding: 40px 50px 30px;
+  text-align: center;
 }
 
 .portfolio-intro p{
@@ -110,10 +111,12 @@ a:hover{
 .portfolio-index{
   margin: 0;
   padding: 10px 50px;
+  text-align: center;
 }
 
   .portfolio-index .thumbnail{
     margin-bottom: 5px;
+    
   }
 
   .portfolio-index a{
@@ -121,7 +124,7 @@ a:hover{
   }
 
   .portfolio-index .cell{
-    margin-bottom: 15px;
+    margin-bottom: 30px;
   }
 
     .portfolio-index .cell h5{
