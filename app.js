@@ -3,7 +3,7 @@
 // const caBundle = fs.readFileSync('./SSL/server.ca-bundle', {encoding:'utf8'});
 // const key = fs.readFileSync('./SSL/server.key');
 // const https= require('https');
-// const port = process.env.PORT || 3000;
+
 // const httpsOptions = {
 //     cert: fs.readFileSync('./SSL/server.crt'),
 //     ca: fs.readFileSync('./SSL/server.ca-bundle', {encoding:'utf8'}),
@@ -19,7 +19,7 @@
 // });
 // httpsServer.listen(port, hostname);
 
-
+const port = process.env.PORT || 3000;
 const express= require('express');
 const app = express();
 app.use('/static', express.static('public'));
