@@ -19,6 +19,16 @@
 // });
 // httpsServer.listen(port, hostname);
 
+const http = require('http');
+const hostname = 'roblherron.com';
+const httpServer = http.createServer((req, res) => {
+   res.statusCode = 301;
+   res.setHeader('Location', `https://${hostname}${req.url}`);
+   res.end(); // make sure to call send() or end() to send the response
+});
+
+httpServer.listen(port);
+
 const port = process.env.PORT || 3000;
 const express= require('express');
 const app = express();
