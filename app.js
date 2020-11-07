@@ -1,20 +1,23 @@
-const fs = require('fs');
-const cert = fs.readFileSync('SSL/server.crt'); 
-const ca = fs.readFileSync('SSL/server.ca-bundle');
-const key = fs.readFileSync('SSL/server.key');
-const https= require('https');
-const port = process.env.PORT || 3000;
-const httpsOptions = {
-    cert: fs.readFileSync('SSL/server.crt'),
-    ca: fs.readFileSync('SSL/server.ca-bundle'),
-    key: fs.readFileSync('SSL/server.key')
-};
-const httpsServer = https.createServer(httpsOptions, (req, res) => {
-    res.statusCode = 200;
-    res.setHeader('Content-Type', 'text/html');
-    res.end(`<h1>Hello from the HTTPS server </h1>`);
-});
-httpsServer.listen(port, hostname);
+// const fs = require('fs');
+// const cert = fs.readFileSync('./SSL/server.crt'); 
+// const caBundle = fs.readFileSync('./SSL/server.ca-bundle', {encoding:'utf8'});
+// const key = fs.readFileSync('./SSL/server.key');
+// const https= require('https');
+// const port = process.env.PORT || 3000;
+// const httpsOptions = {
+//     cert: fs.readFileSync('./SSL/server.crt'),
+//     ca: fs.readFileSync('./SSL/server.ca-bundle', {encoding:'utf8'}),
+//     key: fs.readFileSync('./SSL/server.key')
+// };
+// console.log(cert);
+// console.log(caBundle);
+// console.log(key);
+// const httpsServer = https.createServer(httpsOptions, (req, res) => {
+//     res.statusCode = 200;
+//     res.setHeader('Content-Type', 'text/html');
+//     res.end(`<h1>Hello from the HTTPS server </h1>`);
+// });
+// httpsServer.listen(port, hostname);
 
 
 const express= require('express');
