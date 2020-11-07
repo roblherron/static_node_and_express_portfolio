@@ -1,6 +1,22 @@
-
-const http= require('http');
+const fs = require('fs');
+const cert = fs.readFileSync('C:\Users\Linebreakyourface\AppData\Local\Temp\Temp1_www_roblherron_com.zip\www_roblherron_com.ca-bundle');
+const ca = fs.readFileSync('C:\Users\Linebreakyourface\AppData\Local\Temp\Temp1_www_roblherron_com.zip\www_roblherron_com.crt');
+const key = fs.readFileSync('C:\Users\Linebreakyourface\server.key');
+const https= require('https');
 const port = process.env.PORT || 3000;
+const httpsOptions = {
+    cert: fs.readFileSync('C:\Users\Linebreakyourface\AppData\Local\Temp\Temp1_www_roblherron_com.zip\www_roblherron_com.ca-bundle'),
+    ca: fs.readFileSync('C:\Users\Linebreakyourface\AppData\Local\Temp\Temp1_www_roblherron_com.zip\www_roblherron_com.crt'),
+    key: fs.readFileSync('C:\Users\Linebreakyourface\server.key')
+};
+const httpsServer = https.createServer(httpsOptions, (req, res) => {
+    res.statusCode = 200;
+    res.setHeader('Content-Type', 'text/html');
+    res.end(`<h1>Hello from the HTTPS server </h1>`);
+});
+httpsServer.listen(port, hostname);
+
+
 const express= require('express');
 const app = express();
 app.use('/static', express.static('public'));
