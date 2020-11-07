@@ -1,13 +1,13 @@
 const fs = require('fs');
-const cert = fs.readFileSync('C:\Users\Linebreakyourface\AppData\Local\Temp\Temp1_www_roblherron_com.zip\www_roblherron_com.ca-bundle');
-const ca = fs.readFileSync('C:\Users\Linebreakyourface\AppData\Local\Temp\Temp1_www_roblherron_com.zip\www_roblherron_com.crt');
-const key = fs.readFileSync('C:\Users\Linebreakyourface\server.key');
+const cert = fs.readFileSync('SSL/server.crt'); 
+const ca = fs.readFileSync('SSL/server.ca-bundle');
+const key = fs.readFileSync('SSL/server.key');
 const https= require('https');
 const port = process.env.PORT || 3000;
 const httpsOptions = {
-    cert: fs.readFileSync('C:\Users\Linebreakyourface\AppData\Local\Temp\Temp1_www_roblherron_com.zip\www_roblherron_com.ca-bundle'),
-    ca: fs.readFileSync('C:\Users\Linebreakyourface\AppData\Local\Temp\Temp1_www_roblherron_com.zip\www_roblherron_com.crt'),
-    key: fs.readFileSync('C:\Users\Linebreakyourface\server.key')
+    cert: fs.readFileSync('SSL/server.crt'),
+    ca: fs.readFileSync('SSL/server.ca-bundle'),
+    key: fs.readFileSync('SSL/server.key')
 };
 const httpsServer = https.createServer(httpsOptions, (req, res) => {
     res.statusCode = 200;
