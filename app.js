@@ -3,6 +3,8 @@ const sslRedirect = require('heroku-ssl-redirect').default;
 const express = require('express');
 const app = express();
 app.use(sslRedirect());
+favicon = require('serve-favicon');
+app.use(favicon( '/public/images/RH.png'));
 const port = process.env.PORT || 3000;
 app.use('/static', express.static('public'));
 app.set('view engine', 'pug');
