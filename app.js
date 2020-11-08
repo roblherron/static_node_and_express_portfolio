@@ -1,5 +1,5 @@
 
-
+var sslRedirect = require('heroku-ssl-redirect');
 const port = process.env.PORT || 3000;
 const express = require('express');
 const app = express();
@@ -7,7 +7,7 @@ app.use('/static', express.static('public'));
 app.set('view engine', 'pug');
 const routes = require('./routes');
 app.use(routes);
-var sslRedirect = require('heroku-ssl-redirect');
+
 app.use(sslRedirect());
 
 
