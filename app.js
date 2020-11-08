@@ -1,21 +1,14 @@
 
 
 const port = process.env.PORT || 3000;
-const express= require('express');
+const express = require('express');
 const app = express();
 app.use('/static', express.static('public'));
 app.set('view engine', 'pug');
 const routes = require('./routes');
 app.use(routes);
-
-app.use((req, res, next) => {
-if (req.header('x-forwarded-proto') !== 'https')
-      res.redirect(`https://roblherron.com`);
-      else (next(err));
-});
-
-
-      
+var sslRedirect = require('heroku-ssl-redirect');
+app.use(sslRedirect());
 
 
 //error handlers
