@@ -20,8 +20,7 @@ app.use((req, res, next) => {
     console.log(err.status);
     console.log(err.stack);
     next(err);
-    // console.log('404 handler called')
-    
+  
 });
 //global err handler
 app.use((err, req, res, next) => {
@@ -29,11 +28,11 @@ if (err.status === 404) {
     res.render('not-found');
 } else {
     err.status = 500;
-    res.render('global-error');
+    res.render('error');
     next(err);
 }
-})
-//Turns on server
+});
+//listens on server
 app.listen(port, () => {
     console.log(`listening on port ${port}`)
 });
