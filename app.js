@@ -11,6 +11,7 @@ app.use(routes);
 app.use((req, res, next) => {
 if (req.header('x-forwarded-proto') !== 'https')
       res.redirect(`https://roblherron.com`);
+      else (next);
 });
       
   
