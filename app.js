@@ -8,9 +8,10 @@ app.set('view engine', 'pug');
 const routes = require('./routes');
 app.use(routes);
 
+app.use((req, res, next) => {
 if (req.header('x-forwarded-proto') !== 'https')
       res.redirect(`https://roblherron.com`);
-
+});
       
   
 
