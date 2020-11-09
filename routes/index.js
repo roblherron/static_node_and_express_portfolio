@@ -17,7 +17,11 @@ const projectId = req.params.id;
 const getProjects = projects.find( ({id}) => id === +projectId);
 if (getProjects) {
     res.render("project", { projects: projects[req.params.id] });
-} 
+} else{
+    const err = new Error();
+    err.status = 404;
+    err.message = `The project that you requested doesn't exist!`
+    next(err);}
 });
 
 module.exports= router;
