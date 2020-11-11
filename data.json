@@ -16,7 +16,7 @@
         "technologies": ["HTML", "CSS", "JavaScript"],
         "live_link": "https://roblherron.github.io/List-Pagination-and-Filtering/",
         "github_link": "https://github.com/roblherron/List-Pagination-and-Filtering",
-        "image_urls": ["/static/images/list_pagi_landing.png", "/static/images/list_pagi_example.png"]
+        "image_urls": ["/static/images/list_pagi_landing.png", "/static/images/list_pagi_example_01.png", "/static/images/list_pagi_example.png"]
     },
     {
         "id": 2,
