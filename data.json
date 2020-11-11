@@ -5,8 +5,8 @@
         "project_name": "Random Quote Generator",
         "description": "A generator for random quotes.",
         "technologies": ["HTML", "CSS", "JavaScript"],
-        "live_link": "https://rlherron100.github.io/Random-Quote-Generator/",
-        "github_link": "https://github.com/rlherron100/Random-Quote-Generator",
+        "live_link": "https://roblherron.github.io/Random-Quote-Generator/",
+        "github_link": "https://github.com/roblherron/Random-Quote-Generator",
         "image_urls": ["/static/images/rand_quote_landing.png", "/static/images/thom_quote.png", "/static/images/john_quote.png"]
     }, 
     {
@@ -14,17 +14,17 @@
         "project_name": "List Pagination",
         "description": "A paginated list of fictional students.",
         "technologies": ["HTML", "CSS", "JavaScript"],
-        "live_link": "https://rlherron100.github.io/List-Pagination-and-Filtering/",
-        "github_link": "https://github.com/rlherron100/List-Pagination-and-Filtering",
-        "image_urls": ["/static/images/list_pagi_landing.png", "/static/images/list_pagi_example.png"]
+        "live_link": "https://roblherron.github.io/List-Pagination-and-Filtering/",
+        "github_link": "https://github.com/roblherron/List-Pagination-and-Filtering",
+        "image_urls": ["/static/images/list_pagi_landing.png", "/static/images/list_pagi_example_01.png", "/static/images/list_pagi_example.png"]
     },
     {
         "id": 2,
         "project_name": "Interactive Form",
         "description": "An interactive form for a fictional Full Stack Javascript Conference",
         "technologies": ["HTML", "CSS", "JavaScript", "Regular Expressions"],
-        "live_link": "https://rlherron100.github.io/Interactive-Form/",
-        "github_link": "https://github.com/rlherron100/Interactive-Form",
+        "live_link": "https://roblherron.github.io/Interactive-Form/",
+        "github_link": "https://github.com/roblherron/Interactive-Form",
         "image_urls": ["/static/images/conf_form_landing.png", "/static/images/conf_form_01.png", "/static/images/conf_form_02.png", "/static/images/conf_form_03.png"]
     },
     {
@@ -32,8 +32,8 @@
         "project_name": "Phrase Hunter Game",
         "description": "A phrase guessing game for the browser.",
         "technologies": ["HTML", "CSS", "JavaScript", "Object-Oriented Programming"],
-        "live_link": "https://rlherron100.github.io/oop_game-v2/",
-        "github_link": "https://github.com/rlherron100/oop_game-v2",
+        "live_link": "https://roblherron.github.io/oop_game-v2/",
+        "github_link": "https://github.com/roblherron/oop_game-v2",
         "image_urls": ["/static/images/phrase_game_landing.png", "/static/images/phrase_game_ex01.png", "/static/images/phrase_game_ex02.png", "/static/images/phrase_game_ex03.png"]
     },
     {
@@ -41,8 +41,8 @@
         "project_name": "Employee Directory",
         "description": "A sample employee directory utilizing a public api to gather information.",
         "technologies": ["HTML", "CSS", "JavaScript", "API Requests"],
-        "live_link": "https://rlherron100.github.io/Public-API-Requests/",
-        "github_link": "https://github.com/rlherron100/Public-API-Requests",
+        "live_link": "https://roblherron.github.io/Public-API-Requests/",
+        "github_link": "https://github.com/roblherron/Public-API-Requests",
         "image_urls": ["/static/images/api_dir_landing.png", "/static/images/api_dir_example.png"]
     }
 ]
