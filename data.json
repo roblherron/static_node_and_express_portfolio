@@ -43,7 +43,7 @@
         "technologies": ["HTML", "CSS", "JavaScript", "API Requests"],
         "live_link": "https://roblherron.github.io/Public-API-Requests/",
         "github_link": "https://github.com/roblherron/Public-API-Requests",
-        "image_urls": ["/static/images/api_dir_landing.png", "/static/images/api_dir_example.png"]
+        "image_urls": ["/static/images/api_dir_landing.png","/static/images/api_dir_example_01.png","/static/images/api_dir_example.png"]
     }
 ]
 }
