@@ -150,3 +150,12 @@ a:hover{
 .portfolio-bio{
     line-height: 25px;
 }
+.mobile-fix-1 {
+  min-width: 250px;
+  max-width: 700px;
+  margin: auto;
+}
+.mobile-fix-2 {
+  min-width: 225px;
+  margin: auto;
+}
