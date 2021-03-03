@@ -48,7 +48,7 @@
         {
             "id": 5,
             "project_name": "React Gallery App",
-            "description": "Photo Gallery built with React that utilizes the flickr api for.",
+            "description": "Photo Gallery built with React that utilizes the flickr api.",
             "technologies": ["HTML", "CSS", "JavaScript", "React", "Node", "API Requests"],
             "live_link": "https://roblherron.github.io/react_gallery_app/",
             "github_link": "https://github.com/roblherron/react_gallery_app",
