@@ -2,7 +2,16 @@
     "projects": [
     {
         "id": 0,
-        "project_name": "React Gallery App",
+        "project_name": "React Movie Database Gallery",
+        "description": "A movie gallery built with React that utilizes the movieDB api.",
+        "technologies": ["HTML", "CSS", "JavaScript", "React", "React Hooks", "Node", "API Requests"],
+        "live_link": "https://roblherron.github.io/movie-display/",
+        "github_link": "https://github.com/roblherron/movie-display",
+        "image_urls": ["static/images/movie_home.png", "static/images/movie_search.png", "static/images/movie_modal.png"]
+    },
+    {
+        "id": 1,
+        "project_name": "React Photo Gallery App",
         "description": "Photo Gallery built with React that utilizes the flickr api.",
         "technologies": ["HTML", "CSS", "JavaScript", "React", "Node", "API Requests"],
         "live_link": "https://roblherron.github.io/react_gallery_app/",
@@ -10,7 +19,7 @@
         "image_urls": ["/static/images/react_gallery_home.png", "/static/images/react_gallery_cats.png", "/static/images/react_gallery_not_found.png"]
     }, 
     {
-        "id": 1,
+        "id": 2,
         "project_name": "Phrase Hunter Game",
         "description": "A phrase guessing game for the browser.",
         "technologies": ["HTML", "CSS", "JavaScript", "Object-Oriented Programming"],
@@ -19,7 +28,7 @@
         "image_urls": ["/static/images/phrase_game_landing.png", "/static/images/phrase_game_ex01.png", "/static/images/phrase_game_ex02.png", "/static/images/phrase_game_ex03.png"]
     },
     {
-        "id": 2,
+        "id": 3,
         "project_name": "Employee Directory",
         "description": "A sample employee directory utilizing a public api to gather information.",
         "technologies": ["HTML", "CSS", "JavaScript", "API Requests"],
@@ -28,7 +37,7 @@
         "image_urls": ["/static/images/api_dir_landing.png","/static/images/api_dir_example_01.png","/static/images/api_dir_example.png"]
 },
     {
-        "id": 3,
+        "id": 4,
         "project_name": "Interactive Form",
         "description": "An interactive form for a fictional Full Stack Javascript Conference",
         "technologies": ["HTML", "CSS", "JavaScript", "Regular Expressions"],
@@ -37,7 +46,7 @@
         "image_urls": ["/static/images/conf_form_landing.png", "/static/images/conf_form_01.png", "/static/images/conf_form_02.png", "/static/images/conf_form_03.png"]
 },
     {
-        "id": 4,
+        "id": 5,
         "project_name": "List Pagination",
         "description": "A paginated list of fictional students.",
         "technologies": ["HTML", "CSS", "JavaScript"],
@@ -46,7 +55,7 @@
         "image_urls": ["/static/images/list_pagi_landing.png", "/static/images/list_pagi_example_01.png", "/static/images/list_pagi_example.png"]
     },
     {
-        "id": 5,
+        "id": 6,
         "project_name": "Random Quote Generator",
         "description": "A generator for random quotes.",
         "technologies": ["HTML", "CSS", "JavaScript"],
