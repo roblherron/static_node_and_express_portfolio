@@ -2,7 +2,7 @@
     "projects": [
     {
         "id": 0,
-        "project_name": "React Movie Database Gallery",
+        "project_name": "React MovieDB Gallery",
         "description": "A movie gallery built with React that utilizes the movieDB api.",
         "technologies": ["HTML", "CSS", "JavaScript", "React", "React Hooks", "Node", "API Requests"],
         "live_link": "https://roblherron.github.io/movie-display/",
