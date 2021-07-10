@@ -7,7 +7,7 @@
         "technologies": ["HTML", "CSS", "JavaScript", "React", "React Hooks", "Node", "API Requests"],
         "live_link": "https://roblherron.github.io/movie-display/",
         "github_link": "https://github.com/roblherron/movie-display",
-        "image_urls": ["/static/images/movie_home.png", "/static/images/movie_search.png", "/static/images/movie_modal.png"]
+        "image_urls": ["/static/images/movie_home.png", "/static/images/movie_search.png", "/static/images/fullscreen-modal.png"]
     },
     {
         "id": 1,
